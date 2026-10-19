@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЛюксКино — Кино в формате твоих эмоций</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- СТИКИ ШАПКА -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-badge">🎬</span>
+        <span>Люкс</span>Кино
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li class="nav-item"><a href="#hero">Главная</a></li>
+        <li class="nav-item"><a href="#about">О кинотеатре</a></li>
+        <li class="nav-item"><a href="#now-showing">Кино сейчас</a></li>
+        <li class="nav-item"><a href="#schedule">Расписание</a></li>
+        <li class="nav-item"><a href="#loyalty">Скидки и акции</a></li>
+        <li class="nav-item"><a href="#contacts">Контакты</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#schedule" class="btn-tickets-nav">Купить билет</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ГЛАВНЫЙ РАЗДЕЛ (HERO) -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          Премиальный кинотеатр в Санкт-Петербурге
+        </div>
+
+        <h1 class="hero-title">
+          <span class="highlight">Кино в формате</span><br>
+          твоих эмоций.
+        </h1>
+
+        <p class="hero-description">
+          Забудь о рутине, дедлайнах и повседневной суете. В «ЛюксКино» каждый сеанс — 
+          это полное погружение в другую реальность с кристальным 4K-изображением, 
+          обволакивающим звуком Dolby Atmos и непревзойденным комфортом.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#schedule" class="btn-cta-rush">
+            <span>Быстрее бежать после всех дел смотреть кино</span>
+            <span style="font-size: 1.3rem;">🍿</span>
+          </a>
+          <a href="#now-showing" class="btn-cta-secondary">
+            <span>Топ фильмов сейчас ↓</span>
+          </a>
+        </div>
+
+        <div class="hero-features-bar">
+          <div class="hero-stat">
+            <span class="stat-icon">✨</span>
+            <div class="stat-text">
+              <strong>Лазерный 4K & IMAX</strong>
+              <span>Безупречная чёткость</span>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-icon">🛋️</span>
+            <div class="stat-text">
+              <strong>VIP-кресла реклайнеры</strong>
+              <span>Максимальный релакс</span>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-icon">🔊</span>
+            <div class="stat-text">
+              <strong>Dolby Atmos 360°</strong>
+              <span>Живой пространственный звук</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О КОМПАНИИ -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">О нас</span>
+        <h2 class="section-title">Это супер кино. Ждем каждого!</h2>
+        <p class="section-subtitle">
+          Мы создали пространство, где кинопросмотр превращается в долгожданный праздник.
+          Неважно, забежал ли ты после тяжелого рабочего дня или пришел с компанией на выходных — здесь ты дома.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-block">
+          <h3>Почему «ЛюксКино» — твой лучший вечер в городе?</h3>
+          <p>
+            В «ЛюксКино» нет случайных деталей. Мы переосмыслили привычный поход в кинотеатр: 
+            отказались от тесных рядов в пользу роскошных кожаных кресел с электроприводом, 
+            установили передовую акустику и собрали бар с горячим карамельным попкорном 
+            и авторскими напитками.
+          </p>
+          <p>
+            У нас тепло, атмосферно и по-настоящему душевно. Здесь крутят и культовую вечную классику, 
+            и громкие блокбастеры. Каждый зритель для нас — желанный гость!
+          </p>
+
+          <div class="about-features-list">
+            <div class="about-feature-item">
+              <div class="feature-icon-box">⭐</div>
+              <h4>Ультимативный комфорт</h4>
+              <p>Широкие проходы, регулируемые подножки и персональные столики.</p>
+            </div>
+            <div class="about-feature-item">
+              <div class="feature-icon-box">🍹</div>
+              <h4>Кинобар с доставкой в зал</h4>
+              <p>Заказывай закуски прямо к своему месту в один клик через QR-код.</p>
+            </div>
+            <div class="about-feature-item">
+              <div class="feature-icon-box">🎯</div>
+              <h4>Идеальная акустика</h4>
+              <p>Многоканальный звук, пробирающий до мурашек в каждой сцене.</p>
+            </div>
+            <div class="about-feature-item">
+              <div class="feature-icon-box">❤️</div>
+              <h4>Ждем абсолютно каждого</h4>
+              <p>Открыты 7 дней в неделю с утра и до полуночи для твоих ярких эмоций.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual-card">
+          <div class="about-quote">
+            «Место, куда хочется спешить сразу после работы, бросив все дедлайны.»
+          </div>
+          <p style="color: var(--color-lavender); margin-bottom: 24px;">
+            Мы находимся в самом сердце топового района Санкт-Петербурга. 
+            Удобный паркинг, легкая пешая доступность и атмосфера настоящего кинематографического уюта.
+          </p>
+          <div class="about-badge-row">
+            <span class="pill-chip">🍷 Авторский бар</span>
+            <span class="pill-chip">🍿 5 видов попкорна</span>
+            <span class="pill-chip">🅿️ Бесплатная парковка</span>
+            <span class="pill-chip">🎧 Чистейший звук</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- КИНО СЕЙЧАС (ТОП-5 ФИЛЬМОВ) -->
+  <section class="section" id="now-showing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Сейчас на экранах</span>
+        <h2 class="section-title">Топ-5 фильмов прямо сейчас</h2>
+        <p class="section-subtitle">
+          Хиты, собирающие полные залы. Выбирай легендарный шедевр и занимай лучшие места!
+        </p>
+      </div>
+
+      <div class="top5-grid">
+        <!-- 1. Сумерки -->
+        <article class="movie-card">
+          <div class="movie-poster-wrap">
+            <span class="movie-rank-badge">ТОП #1</span>
+            <span class="movie-rating">★ 8.7</span>
+            <div style="width:100%; height:100%; background: linear-gradient(180deg, #374661 0%, #1f2735 100%); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; text-align:center;">
+              <span style="font-size:3rem; margin-bottom:12px;">🍎</span>
+              <strong style="font-size:1.4rem; color:var(--color-cream); font-family:var(--font-accent);">СУМЕРКИ</strong>
+              <small style="color:var(--color-rose); margin-top:6px; font-weight:600;">The Twilight Saga</small>
+            </div>
+          </div>
+          <div class="movie-details">
+            <div class="movie-genre">Фэнтези • Мелодрама</div>
+            <h3 class="movie-title">Сумерки</h3>
+            <p class="movie-desc">Культовая история любви Белы Свон и загадочного Эдварда Каллена на большом экране.</p>
+            <button class="btn-card-ticket" onclick="openBooking('Сумерки')">Выбрать сеанс</button>
+          </div>
+        </article>
+
+        <!-- 2. Пираты Карибского моря -->
+        <article class="movie-card">
+          <div class="movie-poster-wrap">
+            <span class="movie-rank-badge">ТОП #2</span>
+            <span class="movie-rating">★ 9.1</span>
+            <div style="width:100%; height:100%; background: linear-gradient(180deg, #2b3952 0%, #182333 100%); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; text-align:center;">
+              <span style="font-size:3rem; margin-bottom:12px;">⚓</span>
+              <strong style="font-size:1.3rem; color:var(--color-cream); font-family:var(--font-accent);">ПИРАТЫ КАРИБСКОГО МОРЯ</strong>
+              <small style="color:var(--color-rose); margin-top:6px; font-weight:600;">Легенда капитана Джека</small>
+            </div>
+          </div>
+          <div class="movie-details">
+            <div class="movie-genre">Приключения • Экшн</div>
+            <h3 class="movie-title">Пираты Карибского моря</h3>
+            <p class="movie-desc">Шторма, черные метки, проклятое золото ацтеков и неповторимый капитан Джек Воробей.</p>
+            <button class="btn-card-ticket" onclick="openBooking('Пираты Карибского моря')">Выбрать сеанс</button>
+          </div>
+        </article>
+
+        <!-- 3. Люди в черном -->
+        <article class="movie-card">
+          <div class="movie-poster-wrap">
+            <span class="movie-rank-badge">ТОП #3</span>
+            <span class="movie-rating">★ 8.5</span>
+            <div style="width:100%; height:100%; background: linear-gradient(180deg, #253347 0%, #141c27 100%); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; text-align:center;">
+              <span style="font-size:3rem; margin-bottom:12px;">🕶️</span>
+              <strong style="font-size:1.4rem; color:var(--color-cream); font-family:var(--font-accent);">ЛЮДИ В ЧЕРНОМ</strong>
+              <small style="color:var(--color-rose); margin-top:6px; font-weight:600;">Секретные агенты MIB</small>
+            </div>
+          </div>
+          <div class="movie-details">
+            <div class="movie-genre">Фантастика • Комедия</div>
+            <h3 class="movie-title">Люди в черном</h3>
+            <p class="movie-desc">Агенты Джей и Кей защищают планету от инопланетного мусора в самом стильном блокбастере.</p>
+            <button class="btn-card-ticket" onclick="openBooking('Люди в черном')">Выбрать сеанс</button>
+          </div>
+        </article>
+
+        <!-- 4. Интерстеллар -->
+        <article class="movie-card">
+          <div class="movie-poster-wrap">
+            <span class="movie-rank-badge">ТОП #4</span>
+            <span class="movie-rating">★ 9.4</span>
+            <div style="width:100%; height:100%; background: linear-gradient(180deg, #1d2c44 0%, #101824 100%); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; text-align:center;">
+              <span style="font-size:3rem; margin-bottom:12px;">🌌</span>
+              <strong style="font-size:1.4rem; color:var(--color-cream); font-family:var(--font-accent);">ИНТЕРСТЕЛЛАР</strong>
+              <small style="color:var(--color-rose); margin-top:6px; font-weight:600;">Шедевр Кристофера Нолана</small>
+            </div>
+          </div>
+          <div class="movie-details">
+            <div class="movie-genre">Научная фантастика • Драма</div>
+            <h3 class="movie-title">Интерстеллар</h3>
+            <p class="movie-desc">Грандиозный полет сквозь червоточину под величественный орган Ханса Циммера.</p>
+            <button class="btn-card-ticket" onclick="openBooking('Интерстеллар')">Выбрать сеанс</button>
+          </div>
+        </article>
+
+        <!-- 5. Голодные игры -->
+        <article class="movie-card">
+          <div class="movie-poster-wrap">
+            <span class="movie-rank-badge">ТОП #5</span>
+            <span class="movie-rating">★ 8.8</span>
+            <div style="width:100%; height:100%; background: linear-gradient(180deg, #323e54 0%, #171e29 100%); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; text-align:center;">
+              <span style="font-size:3rem; margin-bottom:12px;">🏹</span>
+              <strong style="font-size:1.3rem; color:var(--color-cream); font-family:var(--font-accent);">ГОЛОДНЫЕ ИГРЫ</strong>
+              <small style="color:var(--color-rose); margin-top:6px; font-weight:600;">Сойка-пересмешница</small>
+            </div>
+          </div>
+          <div class="movie-details">
+            <div class="movie-genre">Антиутопия • Приключения</div>
+            <h3 class="movie-title">Голодные игры</h3>
+            <p class="movie-desc">Китнисс Эвердин бросает вызов жестокой системе Капитолия на арене выживания.</p>
+            <button class="btn-card-ticket" onclick="openBooking('Голодные игры')">Выбрать сеанс</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- РАСПИСАНИЕ СЕАНСОВ (14 ФИЛЬМОВ) -->
+  <section class="section" id="schedule" style="background: rgba(39, 52, 74, 0.35);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Афиша</span>
+        <h2 class="section-title">Предварительное расписание сеансов</h2>
+        <p class="section-subtitle">
+          Богатая коллекция кинофраншиз на сегодня и ближайшие дни. Нажмите на время, чтобы забронировать место!
+        </p>
+      </div>
+
+      <div class="schedule-filters">
+        <button class="filter-btn active" onclick="filterSchedule('all', this)">Все фильмы (14)</button>
+        <button class="filter-btn" onclick="filterSchedule('potter', this)">Гарри Поттер</button>
+        <button class="filter-btn" onclick="filterSchedule('pirates', this)">Пираты Карибского моря</button>
+        <button class="filter-btn" onclick="filterSchedule('hunger', this)">Голодные игры</button>
+        <button class="filter-btn" onclick="filterSchedule('sci-fi', this)">Фантастика & Саги</button>
+      </div>
+
+      <div class="schedule-list" id="scheduleContainer">
+        
+        <!-- 1. Сумерки -->
+        <div class="schedule-card" data-category="sci-fi">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">4K VIP</div>
+            <div class="schedule-text-details">
+              <h4>Сумерки (Часть 1)</h4>
+              <div class="schedule-meta">
+                <span>⏱ 122 мин</span>
+                <span>🎭 Зал 1 «Премиум»</span>
+                <span>⭐ 16+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Сумерки (Часть 1)', '10:30')">10:30<small>380 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Сумерки (Часть 1)', '15:45')">15:45<small>450 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Сумерки (Часть 1)', '20:15')">20:15<small>550 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">380 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Сумерки: Новолуние -->
+        <div class="schedule-card" data-category="sci-fi">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">2D</div>
+            <div class="schedule-text-details">
+              <h4>Сумерки. Сага. Новолуние</h4>
+              <div class="schedule-meta">
+                <span>⏱ 130 мин</span>
+                <span>🎭 Зал 3 «Комфорт»</span>
+                <span>⭐ 16+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Сумерки. Новолуние', '13:00')">13:00<small>420 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Сумерки. Новолуние', '18:20')">18:20<small>500 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Сумерки. Новолуние', '22:45')">22:45<small>520 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">420 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Люди в черном 1 -->
+        <div class="schedule-card" data-category="sci-fi">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">ATMOS</div>
+            <div class="schedule-text-details">
+              <h4>Люди в черном (Часть 1)</h4>
+              <div class="schedule-meta">
+                <span>⏱ 98 мин</span>
+                <span>🎭 Зал 2 «Dolby Sound»</span>
+                <span>⭐ 12+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Люди в черном 1', '11:15')">11:15<small>400 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Люди в черном 1', '16:00')">16:00<small>480 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Люди в черном 1', '21:00')">21:00<small>540 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">400 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Люди в черном 2 -->
+        <div class="schedule-card" data-category="sci-fi">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">2D</div>
+            <div class="schedule-text-details">
+              <h4>Люди в черном II</h4>
+              <div class="schedule-meta">
+                <span>⏱ 88 мин</span>
+                <span>🎭 Зал 4 «Классик»</span>
+                <span>⭐ 12+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Люди в черном II', '14:20')">14:20<small>390 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Люди в черном II', '19:10')">19:10<small>490 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Люди в черном II', '23:15')">23:15<small>450 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">390 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Гарри Поттер и философский камень -->
+        <div class="schedule-card" data-category="potter">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">4K LASER</div>
+            <div class="schedule-text-details">
+              <h4>Гарри Поттер и Философский камень</h4>
+              <div class="schedule-meta">
+                <span>⏱ 152 мин</span>
+                <span>🎭 Зал 1 «Премиум»</span>
+                <span>⭐ 6+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 1', '09:00')">09:00<small>350 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 1', '13:40')">13:40<small>500 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 1', '17:50')">17:50<small>600 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">350 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Гарри Поттер и Тайная комната -->
+        <div class="schedule-card" data-category="potter">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">ATMOS</div>
+            <div class="schedule-text-details">
+              <h4>Гарри Поттер и Тайная комната</h4>
+              <div class="schedule-meta">
+                <span>⏱ 161 мин</span>
+                <span>🎭 Зал 2 «Dolby Sound»</span>
+                <span>⭐ 6+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 2', '11:00')">11:00<small>420 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 2', '16:40')">16:40<small>550 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 2', '21:30')">21:30<small>580 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">420 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Гарри Поттер и узник Азкабана -->
+        <div class="schedule-card" data-category="potter">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">IMAX</div>
+            <div class="schedule-text-details">
+              <h4>Гарри Поттер и узник Азкабана</h4>
+              <div class="schedule-meta">
+                <span>⏱ 142 мин</span>
+                <span>🎭 Зал 1 «Премиум»</span>
+                <span>⭐ 12+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 3', '12:15')">12:15<small>460 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 3', '17:00')">17:00<small>570 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Гарри Поттер 3', '22:10')">22:10<small>600 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">460 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Интерстеллар -->
+        <div class="schedule-card" data-category="sci-fi">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">IMAX 4K</div>
+            <div class="schedule-text-details">
+              <h4>Интерстеллар (IMAX Эксклюзив)</h4>
+              <div class="schedule-meta">
+                <span>⏱ 169 мин</span>
+                <span>🎭 Зал 1 «Премиум»</span>
+                <span>⭐ 12+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Интерстеллар', '12:30')">12:30<small>550 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Интерстеллар', '18:10')">18:10<small>690 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Интерстеллар', '22:00')">22:00<small>650 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">550 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Голодные игры (Часть 1) -->
+        <div class="schedule-card" data-category="hunger">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">ATMOS</div>
+            <div class="schedule-text-details">
+              <h4>Голодные игры (Часть 1)</h4>
+              <div class="schedule-meta">
+                <span>⏱ 142 мин</span>
+                <span>🎭 Зал 3 «Комфорт»</span>
+                <span>⭐ 16+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Голодные игры 1', '10:00')">10:00<small>390 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Голодные игры 1', '15:10')">15:10<small>480 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Голодные игры 1', '20:30')">20:30<small>560 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">390 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Голодные игры: И вспыхнет пламя -->
+        <div class="schedule-card" data-category="hunger">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">4K VIP</div>
+            <div class="schedule-text-details">
+              <h4>Голодные игры: И вспыхнет пламя</h4>
+              <div class="schedule-meta">
+                <span>⏱ 146 мин</span>
+                <span>🎭 Зал 2 «Dolby Sound»</span>
+                <span>⭐ 16+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Голодные игры: И вспыхнет пламя', '13:20')">13:20<small>440 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Голодные игры: И вспыхнет пламя', '17:35')">17:35<small>540 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Голодные игры: И вспыхнет пламя', '22:15')">22:15<small>590 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">440 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11. Пираты: Проклятие Чёрной жемчужины -->
+        <div class="schedule-card" data-category="pirates">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">3D ATMOS</div>
+            <div class="schedule-text-details">
+              <h4>Пираты: Проклятие Чёрной жемчужины</h4>
+              <div class="schedule-meta">
+                <span>⏱ 143 мин</span>
+                <span>🎭 Зал 1 «Премиум»</span>
+                <span>⭐ 12+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Пираты 1', '11:30')">11:30<small>450 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Пираты 1', '16:50')">16:50<small>560 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Пираты 1', '21:40')">21:40<small>620 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">450 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12. Пираты: Сундук мертвеца -->
+        <div class="schedule-card" data-category="pirates">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">2D</div>
+            <div class="schedule-text-details">
+              <h4>Пираты: Сундук мертвеца</h4>
+              <div class="schedule-meta">
+                <span>⏱ 151 мин</span>
+                <span>🎭 Зал 4 «Классик»</span>
+                <span>⭐ 12+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Пираты 2', '13:50')">13:50<small>430 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Пираты 2', '19:00')">19:00<small>530 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">430 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 13. Пираты: На краю света -->
+        <div class="schedule-card" data-category="pirates">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">IMAX</div>
+            <div class="schedule-text-details">
+              <h4>Пираты: На краю света</h4>
+              <div class="schedule-meta">
+                <span>⏱ 169 мин</span>
+                <span>🎭 Зал 1 «Премиум»</span>
+                <span>⭐ 12+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Пираты 3', '14:30')">14:30<small>490 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Пираты 3', '20:40')">20:40<small>610 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">490 ₽</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 14. Пираты: Мертвецы не рассказывают сказки -->
+        <div class="schedule-card" data-category="pirates">
+          <div class="schedule-info">
+            <div class="schedule-badge-format">3D LASER</div>
+            <div class="schedule-text-details">
+              <h4>Пираты: Мертвецы не рассказывают сказки</h4>
+              <div class="schedule-meta">
+                <span>⏱ 129 мин</span>
+                <span>🎭 Зал 2 «Dolby Sound»</span>
+                <span>⭐ 16+</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-times">
+            <div class="time-chip" onclick="openBooking('Пираты 5', '15:20')">15:20<small>460 ₽</small></div>
+            <div class="time-chip" onclick="openBooking('Пираты 5', '22:30')">22:30<small>540 ₽</small></div>
+          </div>
+          <div class="schedule-actions">
+            <div class="schedule-price">
+              <span class="schedule-price-label">Билеты от</span>
+              <span class="schedule-price-val">460 ₽</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- СКИДКИ ПОСТОЯННЫМ КЛИЕНТАМ -->
+  <section class="section loyalty-section" id="loyalty">
+    <div class="container">
+      <div class="loyalty-banner">
+        <div class="loyalty-header-text">
+          <span class="section-tag" style="background: rgba(214, 166, 165, 0.2);">Клуб постоянных зрителей</span>
+          <h3>Скидки и супер-бонусы постоянным гостям</h3>
+          <p>
+            Мы любим преданных киноманов и ценим твою привычку отдыхать со вкусом! 
+            Правило простое и честное: <span class="loyalty-rule-highlight">Приходишь стабильно каждую неделю — на 4-й раз кино бесплатно!</span>
+          </p>
+        </div>
+
+        <div class="loyalty-steps">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h5>1-я Неделя</h5>
+            <p>Смотришь любой фильм недели, открываешь виртуальный трекер и получаешь 10% кэшбэка баллами.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h5>2-я Неделя</h5>
+            <p>Второй визит подряд — дарим купон на скидку 25% на любой карамельный или сырный попкорн.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h5>3-я Неделя</h5>
+            <p>Третий сеанс подряд — фирменный крафтовый лимонад или кофе от бариста совершенно бесплатно!</p>
+          </div>
+
+          <div class="step-card free-step">
+            <div class="step-number">🎁</div>
+            <h5>4-й Сеанс БЕСПЛАТНО!</h5>
+            <p>Финальный уровень месяца: <strong>100% скидка на билет</strong> на абсолютно любой фильм и в любой зал!</p>
+          </div>
+        </div>
+
+        <div class="loyalty-footer-cta">
+          <div class="loyalty-cta-text">
+            <strong>Не упускай выгоду:</strong> программа лояльности привязывается к твоему номеру телефона автоматически при первой покупке билета.
+          </div>
+          <button class="btn-join-club" onclick="alert('Вы успешно активировали клубную карту ЛюксКино! Ждем вас на сеансах каждую неделю!')">
+            Активировать карту лояльности
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- КОНТАКТЫ -->
+  <section class="section" id="contacts">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Связь и локация</span>
+        <h2 class="section-title">Контакты и часы работы</h2>
+        <p class="section-subtitle">
+          Удобно добраться, комфортно припарковаться и приятно провести время до самого полуночного сеанса.
+        </p>
+      </div>
+
+      <div class="contacts-grid">
+        <div class="contact-card">
+          <div class="contact-info-list">
+            
+            <div class="contact-item">
+              <div class="contact-icon-box">🕒</div>
+              <div class="contact-text">
+                <h5>Часы работы</h5>
+                <p>Ежедневно, без выходных и перерывов: <span class="highlight-hours">с 08:00 до 00:00</span></p>
+                <p style="font-size:0.85rem; color:var(--color-lavender); margin-top:4px;">(Кинобар и гардероб работают до окончания последнего сеанса)</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon-box">📍</div>
+              <div class="contact-text">
+                <h5>Местоположение</h5>
+                <p><strong>Санкт-Петербург, самый топ район</strong></p>
+                <p>Петроградская набережная, д. 18 / Невский проспект, ТРК «Люкс Плаза», 4 этаж</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon-box">📞</div>
+              <div class="contact-text">
+                <h5>Бронирование и справка</h5>
+                <p><strong>+7 (812) 777-58-96</strong></p>
+                <p>welcome@luxkino-spb.ru</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon-box">🚗</div>
+              <div class="contact-text">
+                <h5>Парковка</h5>
+                <p>Подземный отапливаемый паркинг — 3 часа бесплатно при предъявлении билета в кино.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="map-placeholder-box">
+            <span class="map-badge">ТОП ЛОКАЦИЯ В СПБ</span>
+            <p style="color:var(--color-cream); font-weight:700; margin-bottom:6px;">2 минуты от метро • Вид на набережную</p>
+            <p style="font-size:0.85rem; color:var(--color-lavender);">Панорамная лаунж-зона перед входом в кинозалы</p>
+          </div>
+        </div>
+
+        <div class="contact-interactive-card">
+          <div class="contact-form">
+            <h4 style="font-size:1.5rem; font-weight:800; color:var(--color-cream); margin-bottom:10px;">Быстрый резерв или вопрос</h4>
+            <p style="font-size:0.95rem; color:var(--color-lavender); margin-bottom:24px;">Оставь контакты, и мы перезвоним через 5 минут или закрепим за тобой любимый ряд кресел.</p>
+
+            <form onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label class="form-label" for="userName">Ваше имя</label>
+                <input class="form-input" type="text" id="userName" placeholder="Александр" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="userPhone">Номер телефона</label>
+                <input class="form-input" type="tel" id="userPhone" placeholder="+7 (999) 000-00-00" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="movieWish">Интересующий фильм</label>
+                <select class="form-select" id="movieWish">
+                  <option value="Сумерки">Сумерки</option>
+                  <option value="Пираты Карибского моря">Пираты Карибского моря</option>
+                  <option value="Люди в черном">Люди в черном</option>
+                  <option value="Интерстеллар">Интерстеллар (IMAX)</option>
+                  <option value="Голодные игры">Голодные игры</option>
+                  <option value="Гарри Поттер">Гарри Поттер</option>
+                  <option value="Другое">Консультация администратора</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="userMsg">Пожелания (необязательно)</label>
+                <input class="form-input" type="text" id="userMsg" placeholder="Хотим диван для двоих на вечерний сеанс">
+              </div>
+
+              <button type="submit" class="btn-submit-form">Отправить заявку в один клик</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="logo">
+            <span class="logo-badge">🎬</span>
+            <span>Люкс</span>Кино
+          </a>
+          <p style="margin-top:16px;">
+            Премиальный кинотеатр в Санкт-Петербурге. Кино в формате твоих ярких эмоций. Ждем каждого в гости каждый день!
+          </p>
+        </div>
+
+        <div>
+          <h5 class="footer-title">Разделы</h5>
+          <ul class="footer-links">
+            <li><a href="#hero">Главная</a></li>
+            <li><a href="#about">О кинотеатре</a></li>
+            <li><a href="#now-showing">Фильмы сейчас</a></li>
+            <li><a href="#schedule">Расписание сеансов</a></li>
+            <li><a href="#loyalty">Скидки 4-й раз бесплатно</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-title">Франшизы</h5>
+          <ul class="footer-links">
+            <li><a href="#schedule">Сумерки все части</a></li>
+            <li><a href="#schedule">Пираты Карибского моря</a></li>
+            <li><a href="#schedule">Гарри Поттер</a></li>
+            <li><a href="#schedule">Голодные игры</a></li>
+            <li><a href="#schedule">Интерстеллар & Нолан</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-title">Локация и время</h5>
+          <p style="font-size:0.9rem; margin-bottom:8px;">Санкт-Петербург, Топ район</p>
+          <p style="font-size:0.9rem; color:var(--color-rose); font-weight:700; margin-bottom:12px;">Ежедневно: 08:00 – 00:00</p>
+          <p style="font-size:0.85rem; color:var(--color-lavender);">Телефон кассы: +7 (812) 777-58-96</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Кинотеатр «ЛюксКино». Все права защищены. Кино в формате твоих эмоций.</div>
+        <div style="color:var(--color-rose);">Санкт-Петербург • Сделано с любовью к кино</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- МОДАЛЬНОЕ ОКНО БРОНИРОВАНИЯ -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeBooking()" aria-label="Закрыть">&times;</button>
+      <div style="font-size:0.8rem; font-weight:700; color:var(--color-rose); text-transform:uppercase; letter-spacing:2px; margin-bottom:8px;">
+        Быстрое бронирование
+      </div>
+      <h3 style="font-size:1.6rem; color:var(--color-cream); margin-bottom:6px;" id="modalMovieTitle">Фильм</h3>
+      <p style="color:var(--color-lavender); font-size:0.92rem; margin-bottom:20px;" id="modalMovieMeta">Время сеанса</p>
+
+      <form onsubmit="handleBookingSubmit(event)">
+        <div class="form-group">
+          <label class="form-label">Количество билетов</label>
+          <select class="form-select" id="ticketCount">
+            <option value="1">1 билет (реклайнер)</option>
+            <option value="2" selected>2 билета (парные места)</option>
+            <option value="3">3 билета</option>
+            <option value="4">4 билета (VIP-ложа)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Ваш номер телефона</label>
+          <input class="form-input" type="tel" id="bookingPhone" placeholder="+7 (999) 123-45-67" required>
+        </div>
+
+        <button type="submit" class="btn-submit-form" style="margin-top:14px;">
+          Подтвердить бронирование
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT ДЛЯ ИНТЕРАКТИВНОСТИ -->
+  <script>
+    // Мобильное меню
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    document.querySelectorAll('.nav-item a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+      });
+    });
+
+    // Фильтрация расписания
+    function filterSchedule(category, btnElement) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btnElement.classList.add('active');
+
+      const cards = document.querySelectorAll('.schedule-card');
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Модальное окно бронирования
+    const modal = document.getElementById('bookingModal');
+    const modalTitle = document.getElementById('modalMovieTitle');
+    const modalMeta = document.getElementById('modalMovieMeta');
+
+    function openBooking(movieName, time = 'Ближайший сеанс') {
+      modalTitle.textContent = movieName;
+      modalMeta.textContent = `Выбранное время: ${time} • Кинотеатр «ЛюксКино» СПб`;
+      modal.classList.add('active');
+    }
+
+    function closeBooking() {
+      modal.classList.remove('active');
+    }
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeBooking();
+      }
+    });
+
+    // Отправка формы брони
+    function handleBookingSubmit(e) {
+      e.preventDefault();
+      const movie = modalTitle.textContent;
+      const count = document.getElementById('ticketCount').value;
+      const phone = document.getElementById('bookingPhone').value;
+      alert(`🎉 Успешно! Забронировано ${count} мест(а) на фильм «${movie}». Детали отправлены в SMS на номер ${phone}. Ждем вас!`);
+      closeBooking();
+    }
+
+    // Отправка формы контактов
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('userName').value;
+      const movie = document.getElementById('movieWish').value;
+      alert(`Спасибо, ${name}! Мы приняли вашу заявку на фильм «${movie}». Наш администратор свяжется с вами в течение 5 минут.`);
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
